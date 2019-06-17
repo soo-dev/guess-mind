@@ -4,5 +4,6 @@
 ## To Do
  - [x] Server
  - [x] Pug
- - [ ] Static
+ - [x] Static
+ - [x] ESLint
  - [ ] SocketIO
