@@ -1,0 +1,20 @@
+{
+  "name": "guess-mind",
+  "version": "1.0.0",
+  "description": "실시간 채팅 게임(SocketIO, Gulp, NodeJS)",
+  "main": "index.js",
+  "repository": "git@github.com:sooyoungsGithub/guess-mind.git",
+  "author": "sooyoungs0120@gmail.com <sooyoungs0120@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
