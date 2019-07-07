@@ -21,7 +21,8 @@
     "socket.io": "^2.2.0"
   },
   "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server"
+    "dev:server": "nodemon --exec babel-node src/server",
+    "build:styles": "gulp styles"
   },
   "devDependencies": {
     "eslint-config-prettier": "^5.0.0",
